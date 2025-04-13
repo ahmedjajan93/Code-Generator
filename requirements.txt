@@ -1,0 +1,11 @@
+streamlit 
+langchain
+dotenv
+langchain-community
+torch
+sentence-transformers
+faiss-cpu
+ffmpeg-python
+requests
+transformers
+openai
