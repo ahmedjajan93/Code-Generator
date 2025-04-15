@@ -34,7 +34,7 @@ if dream_text:
     # LLM via OpenRouter (LLaMA-4)
     response = ChatOpenAI(
         openai_api_base="https://openrouter.ai/api/v1",
-        model_name="google/gemini-2.0-flash-thinking-exp:free",
+        model_name="openai/gpt-3.5-turbo",
     )
     chain = code_prompt | response
     # Generate output
